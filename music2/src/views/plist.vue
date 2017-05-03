@@ -11,6 +11,7 @@
   import list_plist from '../jsons/list_plist'
   import {INIT} from '../mixins'
   export default {
+    name:"plist",
     mixins:[INIT],
     methods: {
       getList(){

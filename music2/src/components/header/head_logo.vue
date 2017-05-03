@@ -1,7 +1,7 @@
 <template>
   <div class="logo-container">
     <div class="head-logo">
-      <a href="#" id="log">
+      <a href="/index" id="log">
         OurMusic
       </a>
     </div>
