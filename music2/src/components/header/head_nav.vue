@@ -1,11 +1,11 @@
 <template>
   <div class="header-nav">
     <mt-navbar v-model="headNav" class="container">
-      <mt-tab-item id="head-nav1" @click.native="goRouter(1)">新歌</mt-tab-item>
-      <mt-tab-item id="head-nav2" @click.native="goRouter(2)">排行</mt-tab-item>
-      <mt-tab-item id="head-nav3" @click.native="goRouter(3)">歌单</mt-tab-item>
-      <mt-tab-item id="head-nav4" @click.native="goRouter(4)">歌手</mt-tab-item>
-      <mt-tab-item id="head-nav5" @click.native="goRouter(5)">彩铃</mt-tab-item>
+      <mt-tab-item id="head-nav1" @click.native="goRouter(1)">推荐</mt-tab-item>
+      <!-- <mt-tab-item id="head-nav2" @click.native="goRouter(2)">排行</mt-tab-item> -->
+      <mt-tab-item id="head-nav2" @click.native="goRouter(2)">歌单</mt-tab-item>
+      <mt-tab-item id="head-nav3" @click.native="goRouter(3)">歌手</mt-tab-item>
+      <mt-tab-item id="head-nav4" @click.native="goRouter(4)">彩铃</mt-tab-item>
     </mt-navbar>
   </div>
 </template>
@@ -26,16 +26,16 @@
           case 1:
             this.$router.push({path: 'index'});
             break;
+          // case 2:
+          //   this.$router.push({path: 'rank'});
+          //   break;
           case 2:
-            this.$router.push({path: 'rank'});
-            break;
-          case 3:
             this.$router.push({path: 'plist'});
             break;
-          case 4:
+          case 3:
             this.$router.push({path: 'singer'});
             break;
-          case 5:
+          case 4:
             this.$router.push({path: 'ringtone'});
             break;
         }

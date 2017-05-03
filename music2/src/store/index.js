@@ -11,7 +11,7 @@ const store = new Vuex.Store({
   state: {
     audio: {
       songUrl: '',
-      imgUrl: 'http://m.kugou.com/v3/static/images/index/logo_kugou.png',
+      imgUrl: '../../static/index.png',
       title: '',
       singer: '',
       currentLength: 0,
@@ -21,7 +21,7 @@ const store = new Vuex.Store({
     head: {
       toggle: false,
       title: '',
-      style: {'background': 'rgba(43,162,251,0)'}
+      // style: {'background': 'rgba(43,162,251,0)'}
     },
     headNav: 'head-nav1',
     audioLoadding: false,
