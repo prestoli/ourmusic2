@@ -1,8 +1,8 @@
 {
-  "name": "kougou-m",
+  "name": "ourmusic",
   "version": "1.0.0",
-  "description": "酷狗、",
-  "author": "lavyun <lavyun@163.com>",
+  "description": "music",
+  "author": "prestoli <prestoli@163.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
